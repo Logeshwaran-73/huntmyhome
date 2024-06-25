@@ -1,0 +1,44 @@
+body{
+	
+	text-align: center;
+	color: darkred;
+	font-family: lucida console;
+
+
+	background-image: url(group.jpg) 
+
+
+
+
+}
+h1{
+	text-align: center;
+	background-color: orange ;
+	color: darkred;
+	width: 50%;
+	border-radius: 10px 50px;
+	padding: 10px;
+	font-family: algerian;
+	
+}
+p{
+	text-align: right;
+	color: darkred;
+}
+h6{
+	text-align: center;
+	border : 1px solid black
+
+}
+h5{
+	text-align: right;
+	color: orange;
+	font-style: bold ;
+}
+.submit{
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}

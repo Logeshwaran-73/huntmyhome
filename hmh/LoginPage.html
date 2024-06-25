@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>huntmyhome.com</title>
+    <link rel="stylesheet" type="text/css" href="houses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-message-format/1.8.3/angular-message-format.min.js">
+</head>
+<body>
+    <header>
+
+        <a href="#" class="brand">huntmyhome</a>
+        <div class="navigation">
+            <div class="navigation-items">
+            <a href="hmh.html">Home</a>
+            <a href="LoginPage.html">Login</a>
+            <a href="searcher.html">Searcher</a>
+            <a href="owner.html">Owner</a>
+            <a href="lottey.html">Lottery</a>
+            <a href="help1.html">24X7</a>
+            </div>
+        </div>
+    </header>
+    <style type="text/css">
+        body{
+            background-color: skyblue;
+        }
+body {
+    text-align: center;
+}/*unvisited link*/
+        a: link{
+            color: yellow;
+        }
+        /*visited link*/
+        a: visited{
+           color: green;
+        }
+/*mouse over link*/
+        a:hover{
+            background-color: red;
+        }
+/*selected link*/
+        a: active{
+            color: hotpink;
+        }
+        .project{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+    </style>
+<img src="logo.png" height=200 width=200 align="left">
+<div class="banner-img"></div>
+<div class="banner-text">
+    <h1>LOGIN PAGE</h1>
+<form>
+    <label style=" font-family:Lucida console,courier new",monospace;for="fname"><b> Username</b></label> <br>
+    <input  type="text" id="fname" name="fname" value=" " required><br><br>
+    <label style=" font-family:Lucida console,courier new",monospace;for="number"><b> Enter phone number </b></label> <br>
+    <input type="number" id="number" name="number" size="10" placeholder="98765-43210" pattern="[0-9]{5}-[0-9]{5}" required><br><br>
+    <label style=" font-family:Lucida console,courier new",monospace;for="password"><b> Enter password </label><br>
+    <input type="password" name="password" required><br><br>
+    <label style=" font-family:Lucida console,courier new",monospace;for="Quota"><b> Whether the user is? </b> </label> <br>
+    <input type="radio" id="Quota" name="Quota" value="Owner"/>Owner
+    <input type="radio" id="Quota" name="Quota" value="Owner"/>Searcher <br><br>
+    <label style=" font-family:Lucida console,courier new",monospace;for="aadhar"><b>ID proof </b></a></label><br><br>
+   <pre>      <input type="file" id="aadhar" name="aadhar" value="UPLOAD"></pre><br>
+    <a href="hmh.html" class="project">LOGIN</a><br><br>
+   <label style=" font-family:Lucida console,courier new",monospace;for="text"><b> New user? </b><a href="SignupPage.html"> Sign up! </a></label>
+</form>
+</div>
+</body>
+</html>
